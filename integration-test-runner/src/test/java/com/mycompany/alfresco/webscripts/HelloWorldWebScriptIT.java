@@ -24,16 +24,13 @@ public class HelloWorldWebScriptIT {
         String webscriptURL = "http://localhost:8080/alfresco/service/ecmstuff/helloworld";
         String expectedResponse = "Hello World";
 
-        CloseableHttpClient httpclient = HttpClients.createDefault();
-        try {
+        try (CloseableHttpClient httpclient = HttpClients.createDefault()) {
             HttpGet httpget = new HttpGet(webscriptURL);
             HttpResponse httpResponse = httpclient.execute(httpget);
             assertEquals("HTTP Response Status is not OK(200)", HttpStatus.SC_OK, httpResponse.getStatusLine().getStatusCode());
             HttpEntity entity = httpResponse.getEntity();
             assertNotNull("Response from Web Script is null", entity);
             assertEquals("Web Script response is not " + expectedResponse, expectedResponse, EntityUtils.toString(entity));
-        } finally {
-            httpclient.close();
         }
     }
 }

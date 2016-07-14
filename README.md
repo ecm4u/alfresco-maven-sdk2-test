@@ -19,7 +19,7 @@ Open [http://localhost:8080/share/page/ecmstuff/helloworld-dashlet](http://local
 
 Add the `Hello World Aikau Dashlet` to your Share dashboard. It should be displayed like this:
 
-![screenshot of dashlet](https://raw.githubusercontent.com/ecm4u/alfresco-maven-sdk2/tes/master/images/custom-dashlet-exmaple.png)
+![screenshot of dashlet](https://github.com/ecm4u/alfresco-maven-sdk2-test/raw/master/images/custom-dashlet-example.png)
 
 
 ## Links

@@ -10,7 +10,7 @@
 
 ## Test it
 
-Open http://localhost:8080/alfresco/service/ecm4u/helloworld. It should print `Hello World`.
+Open [http://localhost:8080/alfresco/service/ecm4u/helloworld](http://localhost:8080/alfresco/service/ecm4u/helloworld). It should print `Hello World`.
 
 ## Links
 

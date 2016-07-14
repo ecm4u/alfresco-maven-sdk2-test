@@ -4,7 +4,7 @@
 
     <artifactId>component-a-repo-jar</artifactId>
     <packaging>jar</packaging>
-    <name>Alfresco Maven Sample - Component A Repo JAR</name>
+    <name>Alfresco Maven Test - Component A Repo JAR</name>
     <description>This is a sample Alfresco Repo JAR extension called Component A</description>
 
     <!-- Setup the parent extension project, which contain all the Alfresco Maven SDK stuff -->

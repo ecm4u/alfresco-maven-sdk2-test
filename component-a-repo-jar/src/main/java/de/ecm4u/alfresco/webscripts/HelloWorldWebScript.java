@@ -1,4 +1,4 @@
-package com.mycompany.alfresco.webscripts;
+package de.ecm4u.alfresco.webscripts;
 
 import org.springframework.extensions.webscripts.Cache;
 import org.springframework.extensions.webscripts.DeclarativeWebScript;

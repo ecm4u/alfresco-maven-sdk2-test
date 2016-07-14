@@ -1,4 +1,4 @@
-package com.mycompany.alfresco.webscripts;
+package de.ecm4u.alfresco.webscripts;
 
 import org.junit.Test;
 import org.mockito.Mockito;

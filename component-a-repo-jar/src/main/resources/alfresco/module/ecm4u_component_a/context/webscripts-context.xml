@@ -3,7 +3,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
           http://www.springframework.org/schema/beans/spring-beans-2.0.xsd">
 
-    <bean id="webscript.com.mycompany.hello-world.get"
-          class="com.mycompany.alfresco.webscripts.HelloWorldWebScript" parent="webscript">
+    <bean id="webscript.de.ecm4u.hello-world.get"
+          class="de.ecm4u.alfresco.webscripts.HelloWorldWebScript" parent="webscript">
     </bean>
 </beans>
